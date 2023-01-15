@@ -4,10 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Home</title>
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="icon" type="image/x-icon" href="ElectronicsClubLogo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="JS/main.js" defer></script>
+
 </head>
-<body>
+
+<body class="home-body">
+
+    <header class="header">
+
+        <!-- EC LOGO  -->
+        <a href="home.html" class="home">
+            <div><img src="images/ec_logo.png" class="inline-flex" id="logo"></div>
+            <div id="line"></div>
+            <div id="display">
+                <div class="EC">Electronics Club</div>
+                <div class="IIT">IIT Guwahati</div>
+            </div>
+        </a>
+        <!-- End of Logo -->
+
+        <!-- Nav Bar -->
+        <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler" data-target="#navigation">
+            <i class="material-icons">menu</i>
+        </button>
+        <div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
+            <div class="lg:inline-flex lg:flex-row lg:ml-auto flex flex-col text-sm">
+
+                <a class="lg:inline-flex lg:w-auto" id='nav1' href="home.html">Home</a>
+                <a class="lg:inline-flex lg:w-auto" id='nav2'>Know About It</a>
+                <a class="lg:inline-flex lg:w-auto" id='nav3'>Events</a>
+                <a class="lg:inline-flex lg:w-auto" id='nav4'>Projects</a>
+                <a class="lg:inline-flex lg:w-auto" id='nav5'>Gallery</a>
+                <a class="lg:inline-flex lg:w-auto" id='nav6' href="faq.html">FAQ(s)</a>
+                <div class="dropdown">
+                    <a class="lg:inline-flex lg:w-auto" id='nav7'>Teams</a>
+                    <div id="myDropdown" class="dropdown-content flex flex-col absolute hidden">
+                        <a href="#">Present</a>
+                        <a href="#">Alumni</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Nav Bar -->
+
+    </header>
+
+    <main>
+        <!-- Stats begin -->  
+        <div class="flex flex-col lg:flex-row lg:justify-center my-10">
+            <div class="basis-1/3 flex flex-row items-center justify-center">
+                <div class="morganite-heading-2 counter">21</div>
+                    <div class="plus morganite-heading-2" data-target="21" style="margin-right: 20px;">+</div>
+                    <div class="text-white text-xl">Events<br>Conducted</div>
+                </div>
+                <div class="basis-1/3 flex flex-row items-center  justify-center">
+                    <div class="morganite-heading-2 counter">2500</div>
+                    <div class="plus morganite-heading-2" data-target="21" style="margin-right: 20px;">+</div>
+                    <div class="text-white text-xl">Students<br>Trained</div>
+                </div>
+                <div class="basis-1/3 flex flex-row items-center justify-center">
+                    <div class="morganite-heading-2 counter">400</div>
+                    <div class="plus morganite-heading-2" data-target="21" style="margin-right: 20px;">+</div>
+                <div class="text-white text-xl">Members</div>
+            </div>
+        </div>
+        <!-- Stats End-->
+
+        <!-- What we do Begin -->
+        <div class=" pt-10 mt-10 flex-col lg:flex lg:flex-row lg:justify-center" >
+            <div style="position: relative;">
+                <img class="dimage wwd-image1" src="images/image_1.png" width="400px"
+                    style="position:relative;top:0;left:0;opacity:1" >
+                <img class="dimage wwd-image2" src="images/image_3.png" width="400px"
+                    style="position:absolute;top:0;left:0;opacity:0">
+                <img class="dimage wwd-image3" src="images/image_4.png" width="400px"
+                    style="position:absolute;top:0;left:0;opacity:0">
+            </div>
+            <div>
+                <div class="what morganite-heading-1 uppercase">
+                    What do we do?
+                </div>    
+                <div class="mt-5 flex flex-col justify-end">
+                    <div class="squeeze1 lg:mx-16 flex flex-row">
+                        <div class="border-l-4 mt-2 mr-2 border-blue-600 support-bar1"></div>
+                        <div class="mx-3">
+                            <button class="accordion" id="accordion">
+                                <div class="text-white text-2xl wwd-heading1">
+                                    Conduct Lectures & Workshops
+                                </div>
+                            </button>
+                            <div id="text" class="context text-base text-gray-400 mt-2 wwd-desc1" style="max-width:330px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis dictum mi. Donec sit
+                                amet ipsum id ante consectetur luctus quis a tortor.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:mx-16 flex flex-row squeeze2">
+                        <div class="border-l-4 mt-2 mr-2 border-blue-600 support-bar2 height-fix"></div>
+                        <div class="mx-3  height-fix">
+                            <button class="accordion" id="accordion">
+                                <div class="text-white text-2xl wwd-heading2">
+                                    Motivate & Guide Students  
+                                </div>
+                            </button>
+                            <div id="text" class="context hidden text-base text-gray-400 mt-2 wwd-desc2" style="max-width:330px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis dictum mi. Donec sit
+                                amet ipsum id ante consectetur luctus quis a tortor.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:mx-16 flex flex-row squeeze3">
+                        <div class="border-l-4 mt-2 mr-2 border-blue-600 support-bar3 height-fix2"></div>
+                        <div class="mx-3 height-fix2">
+                            <button class="accordion" id="accordion">
+                                <div class="text-white text-2xl wwd-heading3">
+                                    Provide Resources & Support
+                                </div>
+                            </button>
+                            <div id="text" class="context hidden text-base text-gray-400 mt-2 wwd-desc3" style="max-width:330px">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis dictum mi. Donec sit
+                                amet ipsum id ante consectetur luctus quis a tortor.
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <!-- What we do end -->
+
+        <!-- About Us -->
+        <div class="my-20 flex flex-col lg:flex lg:flex-row lg:justify-center lg:items-center">
+            <div class="lg:flex lg:flex-col">
+                <div class="mx-16 flex flex-col lg:flex-row lg:items-center">
+                    <div id="about-us">
+                        About Us
+                    </div>
+                    <div class="flex flex-row justify-center items-center">
+                        <div class="mx-10 text-sm text-gray-400" style="max-width:380px">
+                            The mission of the club is to expose students to challenges and new technologies in the field of
+                            electronics and thus to nurture and develop their skill set in this arena.
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-12 mt-10 lg:mx-28 text-sm text-gray-400 " style="max-width:420px">
+                    We believe in coming up with projects that are innovative and tackle real life problems. To achieve
+                    these objectives we conduct various lectures, workshops and mentorship programs to help students
+                    realize their projects.<br><br>
+                    Regular meetings and mentorship programs will definitely help students to achieve their goals. The
+                    emphasis is on experimenting and learning, no experience is necessary but eagerness to learn is
+                    essential.
+                </div>
+            </div>
+            <div class="about-us"><img src="images/image_2.png" width="400px"></div>
+        </div>
+        <!-- About Us End -->
+    </main>
     
+    <footer>
+        <!-- Get In touch -->
+        <div class="get-in-touch">
+            <div class="heading">
+                GET IN TOUCH
+            </div> 
+            <div class="footer-contact-section lg:mx-20">
+                <div class="text-sm text-gray-400">
+                    For any doubts/queries, feel free to contact us at electronicsclub@iitg.ac.in or click the link
+                    below:
+                </div>
+                <div class="my-4">
+                    <button class="border border-gray-500 rounded-md px-3 py-1">
+                        Send a mail
+                    </button>
+                </div>
+                <div class="text-sm text-gray-400 mt-8">
+                    Find us on
+                </div>
+                <div class="links">
+                    <a href="https://www.facebook.com/electronics.iitg/" target="_blank"><div><img src="images/fb_logo.png"></div></a>
+                    <a href="https://www.instagram.com/electronicsclubiitg/?hl=en" target="_blank"><div><img src="images/insta_logo.png"></div></a>
+                    <a href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw?app=desktop" target="_blank"><div><img src="images/yt_logo.png" target="_blank"></div></a>
+                </div>
+            </div>
+        </div>
+        <!-- End of Get in Touch and links-->
+        <!--Extreme Bottom-->
+        <div id="bottom" class="flex flex-col lg:flex-row items-center">
+            <div class="flex flex-row items-center">
+                <div class="inline-flex"><img src="images/Techboard.png" width="140px"></div>
+            </div>
+            <div class="lg:ml-auto text-sm text-gray-400">Designed and Developed by Electronics Club IITG</div>
+        </div>
+    </footer>
+
+
 </body>
 </html>
