@@ -1,0 +1,158 @@
+/* .main-heading{
+    display: flex;
+}
+
+@media only screen and (max-width:768px) {
+    .main-heading{
+
+    }
+}
+@media only screen and (max-width:420px) {
+    .main-heading{
+        display: none;
+    }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+body {
+    background: url('background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Morganite";
+    src: url('Morganite-SemiBold.ttf');
+}
+
+.main-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Morganite';
+    font-style: normal;
+    font-size: 160px;
+    letter-spacing: 0.01em;
+    background: linear-gradient(105.83deg, #FFD2E3 1.41%, #F86F64 75.93%), linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.main-heading p {
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    width: 50%;
+    opacity: 0.7;
+}
+
+.event-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.event-cards ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-cards ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.event-card {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    align-self: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.card-image {
+    width: 37.5%;
+}
+
+.card-image img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.card-content h3{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.card-content p{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.card-tags {
+    display: flex;
+}
+
+.card-tags button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+}
+
+.card-tags button span{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
