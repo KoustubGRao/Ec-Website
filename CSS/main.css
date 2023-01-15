@@ -4,3 +4,79 @@ body{
     background-repeat: repeat-y;
     background-size: 100%;
 }
+
+main #about-us
+{
+    font-style: morganite ;
+    text-transform: uppercase;
+    transform: translateY(4px);
+    font-size: 80px;
+    margin-top: 0px;
+    line-height: 80px;
+    background: linear-gradient(105.83deg, #FFD2E3 1.41%, #F86F64 75.93%), linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+main .about-us
+{
+    margin-right: 144px;
+}
+
+.accordion
+{
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+/* #text {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  } */
+
+.what
+{
+    font-size: 60px;
+    text-align: left;
+    background: linear-gradient(105.83deg, #FFD2E3 1.41%, #F86F64 75.93%), linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+  
+.counter
+{
+    font-size: 60px ;
+    line-height: 80px;
+    font-weight: 600;
+    background: linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.plus
+{
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: 600;
+    background: linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
