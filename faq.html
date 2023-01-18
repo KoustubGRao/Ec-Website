@@ -8,10 +8,9 @@
     <title>Electronics club</title>
     <link rel="icon" type="image/x-icon" href="ElectronicsClubLogo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="faq.css">
-    <link rel="stylesheet" href="homestyles.css">
-    <script src="faq.js" defer></script>
+    <link rel="stylesheet" href="CSS/faq.css">
+    
+    <script src="JS/faq.js" defer></script>
     <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
@@ -19,60 +18,20 @@
 </head>
 
 <body class="home-body">
-    <nav class="flex items-center py-6 flex-wrap text-white" style="padding-left:4vw;padding-right: 4vw;">
-        <a href="#" class="flex flex-row">
-            <div><img src="ec_logo.svg" class="w-9 inline-flex translate-y-1"></div>
-            <div class="h-8 border-l mt-2 mr-2"></div>
-            <div class="flex flex-col">
-                <div class="text-base">Electronics Club</div>
-                <div class="text-sm text-gray-300">IIT Guwahati</div>
-            </div>
-        </a>
-        <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler" data-target="#navigation">
-            <i class="material-icons">menu</i>
-        </button>
-        <!--<div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto" id="navigation">
-            <div class="lg:inline-flex lg:flex-row lg:ml-auto flex flex-col text-sm">
-                <a class="lg:inline-flex lg:w-auto px-3 py-2 cursor-pointer" id='nav1'>Home</a>
-                <a class="lg:inline-flex lg:w-auto px-3 py-2 cursor-pointer" id='nav2'>Know About It</a>
-                <a class="lg:inline-flex lg:w-auto px-3 py-2 cursor-pointer" id='nav3'>Events</a>
-                <a class="lg:inline-flex lg:w-auto px-3 py-2 cursor-pointer" id='nav4'>Projects</a>
-                <a class="lg:inline-flex lg:w-auto px-3 py-2 cursor-pointer" id='nav5'>Gallery</a>
-                <a class="lg:inline-flex lg:w-auto px-3 py-2 cursor-pointer" id='nav6'>
-                        <div class="relative group">
-                            <button class="lg:inline-flex  items-center w-full bg-transparent rounded rounded-lg focus:outline-none">
-                                <span>Team</span>
-                            </button>
-                                
-                                <div class="absolute z-10 hidden group-hover:block rounded bg-white bg-gray-200 shadow-lg">
-
-                                    <a href="/team"
-                                        class="block px-4 py-2 text-sm rounded text-gray-300 text-gray-700 hover:bg-gray-400 hover:text-white">
-                                        Current Team
-                                    </a>
-                                    <a href="/team"
-                                        class="block px-4 py-2 text-sm rounded text-gray-300 text-gray-700 hover:bg-gray-400 hover:text-white">
-                                        Alumni
-                                    </a>
-                                </div>
-                        </div>
-                </a>
-            </div>
-        </div>-->
-    </nav>
+   
     <div id="FAQ">
         <div class=" mt-15 mb-25" style="padding-left:8vw;padding-right: 8vw;margin-top:15px;margin-bottom:45px">
             <div class="flex flex-col items-center justify-center mt-15 mb-25">
-                <h1 class="uppercase header">Faq</h1>
+                <h1 class="morganite-heading-1" style="text-align : center">FAQ</h1>
     
             </div>
             <section>
-                <div class="accordion">
-                    <div class="accordion-item">
+                <div class="accordion " >
+                    <div class="accordion-item ">
                       <div class="accordion-item-header">
                         
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                        <i class="fa fa-chevron-down"></i>
+                       
                       </div>
                       <div class="accordion-item-body">
                         <div class="accordion-item-body-content">
@@ -142,38 +101,8 @@
                     </div>
                 </div>
             </section>
-            <footer class="mt-40 mb-6" style="padding-left:10vw;padding-right: 10vw;">
-                <div class="flex lg:flex-row flex-col lg:items-center lg:justify-center">
-                    <div class="morganite-heading uppercase">
-                        Get in touch
-                    </div>
-                    <div class="footer-contact-section lg:mx-20">
-                        <div class="text-sm text-gray-400">
-                            For any doubts/queries, feel free to contact us at electronicsclub@iitg.ac.in or click the link
-                            below:
-                        </div>
-                        <div class="my-4">
-                            <button class="border border-gray-500 rounded-md px-3 py-1">
-                                Send a mail
-                            </button>
-                        </div>
-                        <div class="text-sm text-gray-400 mt-8">
-                            Find us on
-                        </div>
-                        <div class="flex flex-row my-2">
-                            <div class="mr-2"><img src="fb_logo.svg"></div>
-                            <div class="mr-2"><img src="insta_logo.svg"></div>
-                            <div class="mr-2"><img src="yt_logo.svg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col lg:flex-row items-center mt-40">
-                    <div class="flex flex-row items-center">
-                        <div class="inline-flex"><img src="tech_board_logo.png" width="35px"></div>
-                        <div class="text-sm text-gray-400 mx-3">Technical Board IITG</div>
-                    </div>
-                    <div class="lg:ml-auto text-sm text-gray-400">Developed by --- | --- | --- | ---</div>
-                    <div class="lg:ml-14 text-sm text-gray-400">Designed by Chandan Kolaparthi</div>
-                </div>
-            </footer>
+        </div>
+    </div>
+</body>
+            
            

@@ -1,9 +1,12 @@
+@import url("main.css");
 
 
 .accordion {
   width: 100%;
   max-width: 2000px;
   margin: 2rem auto;
+  font-family: "sora";
+  font-weight: 300;
 }
 .accordion-item {
     background: rgba(255, 255, 255, 0.1);
@@ -17,20 +20,19 @@
   padding: 0.5rem 3rem 0.5rem 1rem;
   min-height: 3.5rem;
   line-height: 1.25rem;
-  font-weight: normal;
   display: flex;
   align-items: center;
   position: relative;
   cursor: pointer;
 }
 .accordion-item-header::after {
-  content: "\27A4";
-  font-size: 1.2rem;
+  content: "+";
   position: absolute;
   right: 1rem;
+  font-size: 160%;
 }
 .accordion-item-header.active::after {
-  transform: rotate(90deg)
+  content: "-";
 
 }
 .accordion-item-body {
