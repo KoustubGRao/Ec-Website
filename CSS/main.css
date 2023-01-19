@@ -1,6 +1,42 @@
+@font-face {
+    font-family: "Morganite";
+    src: url('Morganite-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Sora";
+    src: url('Sora-VariableFont_wght.ttf');
+}
 
 body{
     background-image: url(../images/background.png);
     background-repeat: repeat-y;
     background-size: 100%;
 }
+
+.morganite-heading {
+    font-family: "Morganite";
+    font-size: 110px;
+    background: -webkit-linear-gradient(left,#FFD2E3, #F86F64);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.morganite-heading-1 {
+    font-family: "Morganite";
+    font-size: 136px;
+    letter-spacing: 0.6px;
+    background: -webkit-linear-gradient(#FFD2E3, #fc4639);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.morganite-heading-2 {
+    font-family: "Morganite";
+    font-size: 80px;
+    letter-spacing: 0.6px;
+    background: -webkit-linear-gradient(left,#ffffff, #FFBB94);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
