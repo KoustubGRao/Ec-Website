@@ -1,0 +1,288 @@
+@font-face {
+    font-family: "Morganite";
+    src: url('Morganite-SemiBold.ttf');
+}
+
+@media (min-width:1024px) {
+    .top-nav {
+        display: inline-flex !important;
+    }
+    .trans-paper {
+        display: inline-flex !important;
+        border-radius: 0 20px 20px 0;
+        width: 32vw;
+        height: 250px;
+        background: linear-gradient(to right, white, rgb(75, 75, 75));
+        opacity: 0.5;
+    }
+    .trans-paper-border {
+        display: inline-flex !important;
+        border-radius: 0 28px 28px 0;
+        border: 0.5px solid white;
+        opacity: 0.5;
+    }
+    .nurture-electronics {
+        display: block !important;
+    }
+    .about-us {
+        display: block !important;
+    }
+    .intro-img {
+        transform: translate(0,-260px);
+        width: 470px;
+    }
+    .intro-img-div {
+        margin-left: auto; 
+        margin-right: 100px;
+    }
+    
+}
+
+@media (max-width:1024px) {
+    .intro-img-div {
+        margin: auto; 
+    }
+    .intro-img {
+        width: 90%;
+        margin: auto; 
+    }
+    .height-fix {
+        margin-top: 20px;
+    }
+    .height-fix2 {
+        margin-top: 40px;
+    }
+}
+  
+.home-body {
+    background: url('background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.morganite-heading {
+    font-family: "Morganite";
+    font-size: 110px;
+    background: -webkit-linear-gradient(left,#FFD2E3, #F86F64);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.morganite-heading-1 {
+    font-family: "Morganite";
+    font-size: 136px;
+    letter-spacing: 0.6px;
+    background: -webkit-linear-gradient(#FFD2E3, #fc4639);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.morganite-heading-2 {
+    font-family: "Morganite";
+    font-size: 80px;
+    letter-spacing: 0.6px;
+    background: -webkit-linear-gradient(left,#ffffff, #FFBB94);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+/* --------------------------------------- Events --------------------------------------- */
+
+.events{
+    padding: 0 7vw;
+}
+
+.event-row{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 16px;
+    padding: 8px;
+    margin: 16px 0;
+}
+
+.events-title{
+    /* font-family: Sora; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+}
+.events-desc{
+    /* font-family: Sora; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.events-tag{
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    width: max-content;
+    padding: 5px 10px;
+
+    /* font-family: Sora; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.event-indicator{
+    background: #35AE57;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    position: relative;
+    
+    width: max-content;
+    padding: 10px;
+    height:40px;
+    /* font-family: Sora; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+    
+
+}
+
+.event-indicators{
+
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    position: relative;
+    
+    width: max-content;
+    padding: 10px;
+    height:40px;
+    /* font-family: Sora; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+    
+
+}
+
+@media screen and (min-width:1024px) {
+    .event-indicator{
+        top: -250%;
+        left: -65%;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    .event-indicator{
+        top: -824%;
+        left: -5%;
+    }
+    
+}
+
+.eventmargin{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.event-indicator.active{
+    display: block;
+}
+
+.event-indicator.inactive{
+    display: none;
+}
+
+/* -
+----------------------------------------------------------------------------- */
+
+.footer-contact-section {
+    max-width: 400px;
+    color:white
+}
+
+.intro-sm-text {
+    max-width: 500px;
+    transform: translate(0,-380px);
+    margin-left: 11vw;
+}
+
+
+.nurture {
+    transform: translate(0,-250px);
+    margin-left: 11vw;
+}
+.electronics {
+    transform: translate(0,-330px);
+    margin-left: 11vw;
+}
+
+.img1 {
+    width: 240px !important;
+    height: 280px !important;
+  }
+  
+  @media (max-width: 1024px) {
+    .img1 {
+      width: 200px !important;
+      height: 200px !important;
+    }
+  }
+
+  .header {
+    font-family: Morganite;
+    font-size: 136px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 144px;
+    letter-spacing: 0.6px;
+    margin-bottom: 5px;
+    background: -webkit-linear-gradient(105.83deg, #ffd2e3 1.41%, #f86f64 75.93%),
+      linear-gradient(107.11deg, #ffffff -0.93%, #ffbb94 81.79%),
+      linear-gradient(0deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .below-header {
+    /* font-family: Sora; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }

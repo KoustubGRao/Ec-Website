@@ -13,7 +13,7 @@
 
 .morganite-heading-1 {
     font-family: "Morganite";
-    font-size: 80px;
+    font-size: 136px;
     letter-spacing: 0.6px;
     background: -webkit-linear-gradient(#FFD2E3, #fc4639);
     -webkit-background-clip: text;
@@ -22,7 +22,7 @@
 
 .morganite-heading-2 {
     font-family: "Morganite";
-    font-size: 70px;
+    font-size: 80px;
     letter-spacing: 0.6px;
     background: -webkit-linear-gradient(left,#ffffff, #FFBB94);
     -webkit-background-clip: text;
