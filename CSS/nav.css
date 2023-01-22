@@ -1,32 +1,31 @@
 header
 {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around; */
     padding-top: 44px;
-    padding-right :80px; 
 }
 
-header .home
+.home
 {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-header .home .EC
+.home .EC
 {
     font-weight: 600;
     color: #FFFFFF;
     line-height: 24px;
 }
 
-header .home #logo
+.home #logo
 {
     width: 36px;
 }
 
-header .home #line
+.home #line
 {
     height: 40px;
     border-left: solid 0.5px;
@@ -35,15 +34,21 @@ header .home #line
     margin-right: 8px;
 }
 
-header .home #display
+.home #display
 {
     display: flex;
     flex-direction: column;
 }
 
-header .home .IIT
+.home .IIT
 {
     color: #D1D5DB;
+}
+
+#menu-icon
+{
+    width: 24px;
+    color: #FFFFFF;
 }
 
 #navigation
@@ -107,3 +112,15 @@ header #myDropdown2 a:hover
     opacity: 1;
 }
 
+.dropdown-toggle::after 
+{
+    margin-top: 9px;
+}
+
+#nav1,#nav2,#nav3,#nav5,#nav6
+{
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 125%;
+}
