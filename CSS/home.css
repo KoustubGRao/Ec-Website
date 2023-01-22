@@ -46,7 +46,6 @@ main .about-us
 .what
 {
     font-size: 60px;
-    padding-left: 20px;
     text-align: center;
     background: linear-gradient(105.83deg, #FFD2E3 1.41%, #F86F64 75.93%), linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
     -webkit-background-clip: text;
