@@ -3,15 +3,13 @@ let nav4 = document.getElementById("nav4");
 let nav7 = document.getElementById("nav7");
 let dropdown1 = document.getElementById("myDropdown1");
 let dropdown2 = document.getElementById("myDropdown2");
+
 let acc_1 = document.getElementById("wwd-heading1");
 let acc_2 = document.getElementById("wwd-heading2");
 let acc_3 = document.getElementById("wwd-heading3");
 let desc_1 = document.getElementById("wwd-desc1");
 let desc_2 = document.getElementById("wwd-desc2");
 let desc_3 = document.getElementById("wwd-desc3");
-let img1 = document.getElementById("img1");
-let img2 = document.getElementById("img2");
-let img3 = document.getElementById("img3");
 let menu = document.getElementById("menu-icon");
 
 console.log("reading JS");
