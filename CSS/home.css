@@ -45,8 +45,8 @@ main .about-us
 
 .what
 {
-    font-size: 60px;
     text-align: center;
+    line-height: normal;
     background: linear-gradient(105.83deg, #FFD2E3 1.41%, #F86F64 75.93%), linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -62,7 +62,7 @@ main .about-us
   
 .counter
 {
-    font-size: 60px ;
+    font-size: 80px ;
     line-height: 80px;
     font-weight: 600;
     background: linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
@@ -75,7 +75,7 @@ main .about-us
 
 .plus
 {
-    font-size: 40px;
+    font-size: 80px;
     line-height: 80px;
     font-weight: 600;
     background: linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
