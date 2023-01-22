@@ -1,0 +1,126 @@
+header
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
+    padding-top: 44px;
+}
+
+.home
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home .EC
+{
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.home #logo
+{
+    width: 36px;
+}
+
+.home #line
+{
+    height: 40px;
+    border-left: solid 0.5px;
+    border-left-color: #D1D5DB;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+
+.home #display
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.home .IIT
+{
+    color: #D1D5DB;
+}
+
+#menu-icon
+{
+    width: 24px;
+    color: #FFFFFF;
+}
+
+#navigation
+{
+    font-size: 14 px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+header #navigation a
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+header #navigation a:hover
+{
+    --tw-bg-opacity: 1;
+    background-color: rgb(124 58 237 / var(--tw-bg-opacity));
+    border-radius: 5px;
+}
+
+header #myDropdown1 a
+{
+    opacity: 1;
+    border-radius: 2px;
+    background-color: #e5e7eb;
+    color: #374151;
+
+}
+
+header #myDropdown1 a:hover
+{
+    --tw-bg-opacity: 1;
+    background-color: #9ca3af ;
+    color: white;
+}
+
+header #myDropdown2 a
+{
+    opacity: 1;
+    background-color: #e5e7eb;
+    border-radius: 2px;
+    color: #374151;
+}
+
+header #myDropdown2 a:hover
+{
+    --tw-bg-opacity: 1;
+    background-color: #9ca3af;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    opacity: 1;
+}
+
+.dropdown-toggle::after 
+{
+    margin-top: 9px;
+}
+
+#nav1,#nav2,#nav3,#nav5,#nav6
+{
+    font-size: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 125%;
+}

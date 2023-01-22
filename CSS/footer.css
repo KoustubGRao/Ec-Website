@@ -1,0 +1,59 @@
+footer 
+{
+    padding-bottom: 32px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer .get-in-touch .heading
+{
+    padding-right: 20px;
+    padding-left: 10px;
+    line-height: normal;
+}
+
+footer .get-in-touch .links
+{
+    padding-top: 5px;
+    display: flex;
+}
+
+.heading{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-family: 'Morganite';
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: linear-gradient(105.83deg, #FFD2E3 1.41%, #F86F64 75.93%), linear-gradient(107.11deg, #FFFFFF -0.93%, #FFBB94 81.79%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+footer button{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+footer .links a{
+    margin-right: 8px;
+}
+
+footer .links a img{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 27px;
+}
+
+#bottom
+{
+    margin-top:160px ;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
