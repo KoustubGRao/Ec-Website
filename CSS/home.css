@@ -113,5 +113,11 @@ main .about-us
         width:300px;
     }
     .break
-    {display: none;}
+    {
+        display: none;
+    }
+    .elec-text
+    {
+        text-align: center;
+    }
 }
