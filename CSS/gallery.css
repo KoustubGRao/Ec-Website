@@ -1,0 +1,27 @@
+@import url("main.css");
+
+
+
+img{
+  
+
+  max-height: 100% !important;
+  object-fit: cover !important ;
+  margin: auto !important;
+  width: 100% !important;
+ 
+}
+
+.carousel-inner .carousel-item img{
+   
+  width: 100% !important;
+  object-fit: cover !important;
+ 
+  
+}
+
+  #carouselExampleControls{
+    margin: auto;
+  }
+
+  

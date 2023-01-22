@@ -1,0 +1,46 @@
+
+@import url('main.css');
+@import url('//cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css');
+.wrapper{
+  
+}
+
+.event-card{
+    background-color: rgb(255, 255, 255, 0.1);
+    margin: 20px 0;
+    border-radius: 16px;
+    
+}
+
+.event-image{
+  
+    margin: 8px 0px;
+    border-radius: 10px;
+    
+    
+}
+
+.event-image img{
+    
+   object-fit: fill;
+   width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   opacity: 0.1;
+
+}
+
+.event-title{
+    color: white;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.description{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
