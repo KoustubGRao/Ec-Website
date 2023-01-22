@@ -27,6 +27,7 @@
    height: 240px;
    background-image: url("../images/profile.png");
    background-size: cover ;
+   vertical-align: middle;
    
 }
 
@@ -63,4 +64,6 @@
     font-size: 22px;
     cursor: pointer;
 }
+
+
 
