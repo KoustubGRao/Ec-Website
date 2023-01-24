@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics club</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/projects.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-------------------------------------HEADER---------------------------------------------------------------------------------->
+  <header class="header lg:flex" >
+    <div class="flex items-center" >
+        <!--EC LOGO   -->
+        <div>
+            <a href="index.html" class="home px-5 pr-5 sm:px-20 sm:pr-20" style="text-decoration: none;">
+                <div><img src="images/ec_logo.png" class="inline-flex" id="logo"></div>
+                <div id="line"></div>
+                <div id="display sora">
+                    <div class="EC">Electronics Club</div>
+                    <div class="IIT">IIT Guwahati</div>
+                </div>
+            </a>
+        </div>
+        <!-- End of Logo -->
+
+        <!-- Nav Bar -->
+        <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler mr-4 " data-target="#navigation">
+            <i class="material-icons" id="menu-icon">menu</i>
+        </button>
+    </div>
+    <div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto lg:pr-20" id="navigation">
+        <div class="block pt-3 lg:pt-0 sora lg:inline-flex lg:flex-row lg:ml-auto flex flex-col items-center text-sm">
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav1' href="index.html">Home</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav2' href="know_about_it.html">Know About It</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav3' href="events.html">Events</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav4' href="projects.html">Projects</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav5' href="gallery.html">Gallery</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav6' href="team.html">Team</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav7' href="faq.html">FAQ(s)</a>
+        </div>
+    </div> 
+    <!-- End of Nav Bar -->
+  </header>
+
+  <!-------------------------------------------------------------------------------------------------------------------------->
+
+
+
+    <div class="wrapper">
+      <div class="top-content" style="text-align: center; padding-top: 50px;"> 
+        <h1 class="head-text morganite-heading-1">PROJECTS</h1>
+        <p class="head-para sora">Below here are the projects which are beign done by club. There are many projects which cover various domain of electronics.
+
+        </p>
+      </div>
+    
+    <div class="box">      
+      
+      <!----------------------------------------------------------------------------------------------->
+      <div class="card mb-3" id="card-style">
+        <div class="row g-0">
+          <div class="col-md-5 " style="display: flex;align-items: center; justify-content: center; ">
+            <div class="project-image">
+              <img class =" cloud" src="images/projects/cloud_chamber.jpeg"  alt="..." >
+            </div>
+          </div>
+          <div class="col-md-7" >
+            <div class="card-body" style="margin-left:15px">
+              <h5 class="card-title sora">Thermo-electronic Wilson Cloud Chamber</h5>
+              <p class="card-text sora">A project to build a Thermo Electric Wilson Chamber (TEWC) involves the design and construction of a particle detector that utilizes thermoelectric cooling and a supercooled liquid to create a cloud chamber. The goal of this project is to develop a portable and low-cost TEWC that can be used for educational and research purposes, as well as for field work in remote locations.</p>
+            </div>
+            <div class="git-link"  >
+              <a href="https://github.com/elecclubiitg/CloudChamber" target="_blank"><i class="fa fa-github" style="font-size:35px;color: white; align-items: baseline;"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------------------------------------------------------------------------------------>
+      <!----------------------------------------------------------------------------------------------->
+      <div class="card mb-3" id="card-style">
+        <div class="row g-0">
+          <div class="col-md-5 " style="display: flex;align-items: center; justify-content: center; ">
+            <div class="project-image">
+              <img src="images/projects/classD.jpeg"  alt="..." >
+            </div>
+          </div>
+          <div class="col-md-7" >
+            <div class="card-body" style="margin-left:15px">
+              <h5 class="card-title sora">Class-D Audio Amplifier with Mosfet</h5>
+              <p class="card-text sora">A Class-D Audio Amplifier with Mosfet is a type of electronic circuit that amplifies audio signals to drive speakers. It uses Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET) technology to provide high efficiency and low distortion. The project which we are working on is to integrate this amplifier circuit into a media player, allowing it to play audio from various sources such as music files or streaming services. The use of a Class-D amplifier will allow for a compact and energy efficient design, while the MOSFETs provide high power output and low distortion. 
+              </p>
+            </div>
+            <div class="git-link"  >
+              <a href="https://github.com/elecclubiitg/Class_D_Amplifier" target="_blank"><i class="fa fa-github" style="font-size:35px;color: white; align-items: baseline;"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!----------------------------------------------------------------------------------------------->
+      <div class="card mb-3" id="card-style">
+        <div class="row g-0">
+          <div class="col-md-5 " style="display: flex;align-items: center; justify-content: center; ">
+            <div class="project-image ">
+              <img src="images/projects/club_automation.jpeg"  alt="..." >
+            </div>
+          </div>
+          <div class="col-md-7" >
+            <div class="card-body" style="margin-left:15px">
+              <h5 class="card-title sora">Club Automation</h5>
+              <p class="card-text sora">This project aims to build smart gadgets that utilize the Internet of Things (IoT) technology to improve the convenience and efficiency of everyday life.The smart gadgets that will be developed include a range of devices such as smart thermostats, smart lighting systems, smart security cameras, and smart appliances. These devices will be connected to a central system, which can be accessed and controlled remotely using a smartphone or computer.</p>
+            </div>
+            <div class="git-link"  >
+              <a href="https://github.com/elecclubiitg/ClubAutomation" target="_blank"><i class="fa fa-github" style="font-size:35px;color: white; align-items: baseline;"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!----------------------------------------------------------------------------------------------->
+      <div class="card mb-3" id="card-style">
+        <div class="row g-0">
+          <div class="col-md-5 " style="display: flex;align-items: center; justify-content: center; ">
+            <div class="project-image">
+              <img src="images/projects/fin_flow.jpeg"  alt="..." >
+            </div>
+          </div>
+          <div class="col-md-7" >
+            <div class="card-body" style="margin-left:15px">
+              <h5 class="card-title sora">Fin-Flow</h5>
+              <p class="card-text sora">An IoT-based project that aims to improve water quality involving the deployment of a network of smart sensors at various locations within a water distribution system. These sensors would be able to detect and monitor various water quality parameters such as pH, temperature, turbidity, and chemical levels. The collected data would be transmitted in real-time to a central system via a wireless network, where it would be analyzed and processed.This project aims to provide real-time monitoring and analysis of water quality, enabling quick and effective response to any issues, thus ensuring that the water remains safe for consumption.</p>
+            </div>
+            <div class="git-link"  >
+              <a href="https://github.com/elecclubiitg/Finflow" target="_blank"><i class="fa fa-github" style="font-size:35px;color: white; align-items: baseline;"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!----------------------------------------------------------------------------------------------->
+      <div class="card mb-3" id="card-style">
+        <div class="row g-0">
+          <div class="col-md-5 " style="display: flex;align-items: center; justify-content: center; ">
+            <div class="project-image">
+              <img src="images/projects/fruit_ninja.png"  alt="..." >
+            </div>
+          </div>
+          <div class="col-md-7" >
+            <div class="card-body" style="margin-left:15px">
+              <h5 class="card-title sora">Fruit Ninja</h5>
+              <p class="card-text sora">This  project aims to  create a "Fruit Ninja" game using a FPGA (Field-Programmable Gate Array) board.In this project, the FPGA board would be used to create the game's hardware platform, while the game's software would be created using a hardware description language (HDL) such as VHDL or Verilog. The game would involve using a simple input device, such as a button or touch screen, to control the game's character and slice virtual fruits that appear on the screen.</p>
+            </div>
+            <div class="git-link"  >
+              <a href="https://github.com/elecclubiitg/FruitNinja" target="_blank"><i class="fa fa-github" style="font-size:35px;color: white; align-items: baseline;"></i></a>
+          </div>
+          </div>
+        </div>
+      </div>
+     <!----------------------------------------------------------------------->
+     <footer class="mt-32">
+      <!-- Get In touch -->
+      <div class="get-in-touch flex flex-col items-center lg:grid lg:grid-cols-2">
+          <div class="morganite-heading-1 heading lg:flex lg:flex-row lg:items-center lg:justify-end mr-5">
+              GET IN TOUCH
+          </div> 
+          <div class="footer-contact-section lg:mx-20 ">
+              <div class="text-sm text-gray-400 mt-4 lg:mt-0 sora">
+                  For any doubts/queries, feel free to contact us at <span style="font-weight: 380; color: white;"> electronicsclub@iitg.ac.in </span>.
+              </div>
+              
+              <div class="text-sm text-gray-400 mt-8 sora">
+                  Find us on
+              </div>
+              <div class="links">
+                  <a href="https://www.facebook.com/electronics.iitg/" target="_blank"><div><img src="images/fb_logo.png"></div></a>
+                  <a href="https://www.instagram.com/electronicsclubiitg/?hl=en" target="_blank"><div><img src="images/insta_logo.png"></div></a>
+                  <a href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw?app=desktop" target="_blank"><div><img src="images/yt_logo.png" target="_blank"></div></a>
+              </div>
+          </div>
+      </div>
+      <!-- End of Get in Touch and links-->
+      <!--Extreme Bottom-->
+      <div id="bottom" class="flex flex-col lg:flex-row items-center justify-between">
+          <div class="mt-4 lg:mt-0 flex flex-row items-center">
+              <div class="inline-flex"><img src="images/Techboard.png" width="140px"></div>
+          </div>
+          <div class="mt-4 lg:mt-0 lg:ml-auto text-sm text-gray-400 sora" style="font-size: 14px;">Designed and Developed by Electronics Club IITG</div>
+      </div>
+    </footer>
+
+      <!-------------------------------------------------------------------------------------------------------------------------->
+    </div>
+    </div>
+
+   
+    <script>
+      let nav= document.getElementById("navigation");
+      let menu = document.getElementById("menu-icon"); 
+      menu.addEventListener('click',()=>{
+          nav.classList.toggle("hidden");
+      });
+    </script>
+</body>
+
+    <!-- <script src="new-projects.js"> -->
+
+</html>
+ 

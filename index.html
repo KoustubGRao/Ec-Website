@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Club</title>
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="icon" type="image/x-icon" href="images/ElectronicsClubLogo.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="JS/main.js" defer></script>
+    <link rel="stylesheet" href="CSS/home.css">
+</head>
+<body class="home-body">
+
+    <header class="header lg:flex" >
+        <div class="flex items-center" >
+            <!--EC LOGO   -->
+            <div>
+                <a href="home.html" class="home px-5 pr-5 sm:px-20 sm:pr-20" style="text-decoration: none;">
+                    <div><img src="images/ec_logo.png" class="inline-flex" id="logo"></div>
+                    <div id="line"></div>
+                    <div id="display sora">
+                        <div class="EC">Electronics Club</div>
+                        <div class="IIT">IIT Guwahati</div>
+                    </div>
+                </a>
+            </div>
+            <!-- End of Logo -->
+
+            <!-- Nav Bar -->
+            <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler mr-4 " data-target="#navigation">
+                <i class="material-icons" id="menu-icon">menu</i>
+            </button>
+        </div>
+        <div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto lg:pr-20" id="navigation">
+            <div class="block pt-3 lg:pt-0 sora lg:inline-flex lg:flex-row lg:ml-auto flex flex-col items-center text-sm">
+                <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav1' href="index.html">Home</a>
+                <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav2' href="know_about_it.html">Know About It</a>
+                <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav3' href="events.html">Events</a>
+                <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav4' href="projects.html">Projects</a>
+                <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav5' href="gallery.html">Gallery</a>
+                <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav6' href="team.html">Team</a>
+                <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav7' href="faq.html">FAQ(s)</a>
+            </div>
+        </div> 
+        <!-- End of Nav Bar -->
+    </header>
+
+    <main>
+        <!-- Intro Begin-->
+        <div class="pl-16 pr-20 lg:pl-40 lg:pr-28" style="margin-top:80px;">
+            <div class="flex flex-col items-center lg:grid lg:grid-cols-2 lg:gap-x-5">
+                <div class="nurture-electronics flex flex-col ">
+                    <div class="morganite-heading-1 sm:text-center lg:text-left uppercase">Nurture <br class="break">Electronics</div>
+                    <div class="elec-text text-sm text-gray-400 mt-8 sora" style="font-size: 15px;">
+                        The Electronics Club aims to provide students a
+                        platform and resources to gain practical skills and realize projects. 
+                        We strive to teach and help
+                        students acquire new skills in an era of rapidly evolving technology.
+                    </div>
+                </div>
+                <div class="intro-img-div mt-20 lg:mt-0">
+                    <img class="intro-img lg:ml-auto lg:mr-auto" src="images/ec_team.jpeg"/>
+                </div>
+            </div>
+        </div>
+        <!-- Intro End -->
+
+
+        <!-- Stats begin -->  
+        <div class="mt-28 mb-10 flex flex-col lg:flex-row lg:justify-center">
+            <div class="basis-1/3 flex flex-row items-center justify-center" style="line-height: 100px;">
+                <div class="morganite-heading-2 counter" >30</div>
+                    <div class="plus morganite-heading-2" data-target="21" style="margin-right: 20px;">+</div>
+                    <div class="text-white text-xl sora">Events<br>Conducted</div>
+                </div>
+                <div class="basis-1/3 flex flex-row items-center  justify-center" >
+                    <div class="morganite-heading-2 counter">2500</div>
+                    <div class="plus morganite-heading-2" data-target="21" style="margin-right: 20px;">+</div>
+                    <div class="text-white text-xl sora">Students<br>Trained</div>
+                </div>
+                <div class="basis-1/3 flex flex-row items-center justify-center">
+                    <div class="morganite-heading-2 counter">400</div>
+                    <div class="plus morganite-heading-2" data-target="21" style="margin-right: 20px;">+</div>
+                <div class="text-white text-xl sora">Members</div>
+            </div>
+        </div>
+        <!-- Stats End-->
+
+        <!-- What we do Begin -->
+        <div class=" pt-10 mt-10 flex flex-col justify-center items-center md:flex md:flex-row md:justify-center " >
+            <img class="dimage wwd-image1 mb-20 lg:mb-0" id="img1" src="images/image_1.png" style="top:0;left:0;opacity:1;" />
+            <div class="flex flex-col mr-3 pb-3">
+                <div class="lg:mx-16 what morganite-heading-1 uppercase">
+                    What do we do?
+                </div>
+                <div class=" lg:mx-16 flex flex-row  acc_box" >
+                    <div class="mx-3 acc_wrap" id="wwd-heading1">
+                        <div class="text-white text-xl  sora">
+                            Conduct Lectures & Workshops <span >&#x25BE;</span>
+                        </div>
+                        <div class="text-sm text-gray-400 mt-2 sora" id="wwd-desc1" style="max-width:330px">
+                            We offer lectures and workshops on a wide range of topics in electronics, covering everything from selecting a laptop to PCB design and more.
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:mx-16 flex flex-row  mt-3 acc_box">
+                    <div class="mx-3 height-fix acc_wrap" id="wwd-heading2">
+                        <div class="text-white text-xl sora">
+                            Motivate & Guide Students <span >&#x25BE;</span>
+                        </div>
+                        <div class="hidden text-sm text-gray-400 mt-2 sora" id="wwd-desc2" style="max-width:330px">
+                            We provide guidance and inspiration to students by providing them with the necessary tools and resources to excel in their field of interest.
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:mx-16 flex flex-row mt-3 acc_box">
+                    <div class="mx-3 height-fix2 acc_wrap" id="wwd-heading3">
+                        <div class="text-white text-xl sora">
+                            Provide Resources & Support <span >&#x25BE;</span>
+                        </div>
+                        <div class="hidden text-sm text-gray-400 mt-2 sora" id="wwd-desc3" style="max-width:330px">
+                            We furnish students with the necessary resources and assistance to complete projects from the beginning stages.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- What we do end -->
+
+        <!-- About Us -->
+        <div class="my-20 px-4 flex flex-col items-center md:grid md:grid-cols-2 md:gap-x-5">
+            <div class="ml-auto mr-auto" style="text-align:center;">
+                <div id="about-us" class="morganite-heading-1" style="margin-top: 0px;">
+                    About Us
+                </div>
+                <div class="mt-10 text-sm text-gray-400 text-center  sora" style="max-width:420px; font-size: 15px; margin-top: 10px;">
+                    The mission of this club is to divulge students, the challenges and new technologies in the field of electronics and to nurture and amplify their skill set to excel in this arena.
+                    <br> <br>
+                    We believe in developing initiatives that are creative and capable of addressing issues that people face in everyday life. To help students understand their projects, we run a variety of lectures, workshops, and mentorship programmes.
+                    
+                </div>
+            </div>
+            <div class="about-us ml-auto mr-auto mt-20 lg:mt-0"><img src="images/image_2.png"></div>
+        </div>
+        <!-- About Us End -->
+    </main>
+    
+    <footer class="mt-32">
+        <!-- Get In touch -->
+        <div class="get-in-touch flex flex-col items-center lg:grid lg:grid-cols-2">
+            <div class="morganite-heading-1 lg:flex lg:flex-row lg:items-center lg:justify-end mr-5">
+                GET IN TOUCH
+            </div> 
+            <div class="footer-contact-section lg:mx-20 ">
+                <div class="text-sm text-gray-400 mt-4 lg:mt-0 sora">
+                    For any doubts/queries, feel free to contact us at <span style="font-weight: 380; color: white;"> electronicsclub@iitg.ac.in </span>.
+                </div>
+                
+                <div class="text-sm text-gray-400 mt-8 sora">
+                    Find us on
+                </div>
+                <div class="links">
+                    <a href="https://www.facebook.com/electronics.iitg/" target="_blank"><div><img src="images/fb_logo.png"></div></a>
+                    <a href="https://www.instagram.com/electronicsclubiitg/?hl=en" target="_blank"><div><img src="images/insta_logo.png"></div></a>
+                    <a href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw?app=desktop" target="_blank"><div><img src="images/yt_logo.png" target="_blank"></div></a>
+                </div>
+            </div>
+        </div>
+        <!-- End of Get in Touch and links-->
+        <!--Extreme Bottom-->
+        <div id="bottom" class="flex flex-col lg:flex-row items-center justify-between">
+            <div class="mt-4 lg:mt-0 flex flex-row items-center">
+                <div class="inline-flex"><img src="images/Techboard.png" width="140px"></div>
+            </div>
+            <div class="mt-4 lg:mt-0 lg:ml-auto text-sm text-gray-400 sora" style="font-size: 14px;">Designed and Developed by Electronics Club IITG</div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="JS/jquery.counterup.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1200
+            });
+        });
+    </script>
+</body>
+</html>

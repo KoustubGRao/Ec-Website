@@ -12,25 +12,63 @@
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.tailwindcss.com"></script>
-  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="CSS/footer.css">
+  <link rel="stylesheet" href="CSS/nav.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body class="home-body">
+  <!-- Header -->
+  <header class="header lg:flex" >
+    <div class="flex items-center" >
+        <!--EC LOGO   -->
+        <div>
+            <a href="index.html" class="home px-5 pr-5 sm:px-20 sm:pr-20" style="text-decoration: none;">
+                <div><img src="images/ec_logo.png" class="inline-flex" id="logo"></div>
+                <div id="line"></div>
+                <div id="display sora">
+                    <div class="EC">Electronics Club</div>
+                    <div class="IIT">IIT Guwahati</div>
+                </div>
+            </a>
+        </div>
+        <!-- End of Logo -->
+
+        <!-- Nav Bar -->
+        <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler mr-4 " data-target="#navigation">
+            <i class="material-icons" id="menu-icon">menu</i>
+        </button>
+    </div>
+    <div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto lg:pr-20" id="navigation">
+        <div class="block pt-3 lg:pt-0 sora lg:inline-flex lg:flex-row lg:ml-auto flex flex-col items-center text-sm">
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav1' href="index.html">Home</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav2' href="know_about_it.html">Know About It</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav3' href="events.html">Events</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav4' href="projects.html">Projects</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav5' href="gallery.html">Gallery</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav6' href="team.html">Team</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav7' href="faq.html">FAQ(s)</a>
+        </div>
+    </div> 
+    <!-- End of Nav Bar -->
+  </header>
+  <!-- Header End -->
+
   <!----------------------------    Gallery  -------------------------------->
 
     <div id="gallery" class="mt-15 mb-25" style="
         padding-left: 8vw;
         padding-right: 8vw;
-        margin-top: 15px;
+        margin-top: 50px;
         margin-bottom: 45px;
       ">
       <div class="flex flex-col lg:items-center lg:justify-center mt-15 mb-25" style="text-align: center;">
         <h1 class="uppercase header morganite-heading-1">Gallery</h1>
         <p class="below-header text-sm text-gray-400 sora">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          sagittis facilisis tempor. Phasellus consectetur nisl vel sapien
-          pulvinar dictum.
+          Here is the collection from the electronics club, which showcases creative, entertaining, and joyful moments.
         </p>
       </div>
 
@@ -42,13 +80,13 @@
                 <img src="./images/gallery/slide_1.jpg" class="" alt="first image"  >
               </div>
               <div class="carousel-item" >
-                <img src="./images/gallery/slide_2.jpg" class="" alt="second image" >
+                <img src="./images/gallery/slide_4.jpg" class="" alt="second image" >
               </div>
               <div class="carousel-item" >
-                <img src="./images/gallery/slide_3.jpg" class="" alt="third image" >
+                <img src="./images/gallery/slide_2.jpg" class="" alt="third image" >
               </div>
               <div class="carousel-item" >
-                <img src="./images/gallery/slide_4.jpg" class="" alt="fourth image" >
+                <img src="./images/gallery/slide_3.jpg" class="" alt="fourth image" >
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -68,7 +106,7 @@
 
         <div class="grid grid-cols-2 lg:grid-cols-1 flex flex-row lg:flex-col gap-2">
           <div style="background: #ffffff1a;  " class="flex flex-col lg:flex-row p-1.5 rounded">
-            <img src="images/gallery/test_2.jpg" alt=""   >
+            <img src="images/gallery/1.1.2.jpg" alt=""   >
           </div>
           <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
             <img src="images/gallery/test_2.jpg" alt="" ></div>
@@ -77,49 +115,77 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4" style="margin-top: 40px">
         <div style="background: #ffffff1a;" class="flex flex-col lg:flex-row p-1.5 rounded ">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/test_1.jpg" alt="" ></div>
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/4.3.jpg" alt="" ></div>
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/3.4.jpg" alt="" ></div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4" style="margin-top: 40px">
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/2.3.jpg" alt="" ></div>
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/4.2.jpg" alt="" ></div>
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/3.3.jpg" alt="" ></div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4" style="margin-top: 40px">
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/5.3.jpg" alt="" ></div>
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/5.1.jpg" alt="" ></div>
         <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
+          <img src="images/gallery/5.4.jpg" alt="" ></div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-4" style="margin-top: 40px">
-        <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
-        <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
-        <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
-        <div style="background: #ffffff1a" class="flex flex-col lg:flex-row p-1.5 rounded">
-          <img src="images/event 1.png" alt="" ></div>
-    </div>
+      
     </div>
   <!----------------------------    Footer    -------------------------------->
+  <footer class="mt-32">
+    <!-- Get In touch -->
+    <div class="get-in-touch flex flex-col items-center lg:grid lg:grid-cols-2">
+        <div class="morganite-heading-1 lg:flex lg:flex-row lg:items-center lg:justify-end mr-5">
+            GET IN TOUCH
+        </div> 
+        <div class="footer-contact-section lg:mx-20 ">
+            <div class="text-sm text-gray-400 mt-4 lg:mt-0 sora">
+                For any doubts/queries, feel free to contact us at <span style="font-weight: 380; color: white;"> electronicsclub@iitg.ac.in </span>.
+            </div>
+            
+            <div class="text-sm text-gray-400 mt-8 sora">
+                Find us on
+            </div>
+            <div class="links">
+                <a href="https://www.facebook.com/electronics.iitg/" target="_blank"><div><img src="images/fb_logo.png"></div></a>
+                <a href="https://www.instagram.com/electronicsclubiitg/?hl=en" target="_blank"><div><img src="images/insta_logo.png"></div></a>
+                <a href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw?app=desktop" target="_blank"><div><img src="images/yt_logo.png" target="_blank"></div></a>
+            </div>
+        </div>
+    </div>
+    <!-- End of Get in Touch and links-->
+    <!--Extreme Bottom-->
+    <div id="bottom" class="flex flex-col lg:flex-row items-center justify-between">
+      <div class="mt-4 lg:mt-0 flex flex-row items-center">
+          <div class="inline-flex"><img src="images/Techboard.png" width="140px"></div>
+      </div>
+      <div class="mt-4 lg:mt-0 lg:ml-auto text-sm text-gray-400 sora" style="font-size: 14px;">Designed and Developed by Electronics Club IITG</div>
+    </div>
+  </footer>
 
   <!---------------------------------------------------------------------------->
  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+    <script>
+      let nav= document.getElementById("navigation");
+      let menu = document.getElementById("menu-icon"); 
+      menu.addEventListener('click',()=>{
+          nav.classList.toggle("hidden");
+      });
+    </script>
 </body>
 
 </html>

@@ -8,6 +8,11 @@
   font-family: "sora";
   font-weight: 300;
 }
+
+.faq{
+  line-height: normal;
+  margin: 0px;
+}
 .accordion-item {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(40px);

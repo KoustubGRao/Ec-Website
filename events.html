@@ -6,59 +6,241 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
     <link rel="stylesheet" href="CSS/events.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+  <header class="header lg:flex" >
+    <div class="flex items-center" >
+        <!--EC LOGO   -->
+        <div>
+            <a href="index.html" class="home px-5 pr-5 sm:px-20 sm:pr-20" style="text-decoration: none;">
+                <div><img src="images/ec_logo.png" class="inline-flex" id="logo"></div>
+                <div id="line"></div>
+                <div id="display sora">
+                    <div class="EC">Electronics Club</div>
+                    <div class="IIT">IIT Guwahati</div>
+                </div>
+            </a>
+        </div>
+        <!-- End of Logo -->
+
+        <!-- Nav Bar -->
+        <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler mr-4 " data-target="#navigation">
+            <i class="material-icons" id="menu-icon">menu</i>
+        </button>
+    </div>
+    <div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto lg:pr-20" id="navigation">
+        <div class="block pt-3 lg:pt-0 sora lg:inline-flex lg:flex-row lg:ml-auto flex flex-col items-center text-sm">
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav1' href="index.html">Home</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav2' href="know_about_it.html">Know About It</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav3' href="events.html">Events</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav4' href="projects.html">Projects</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav5' href="gallery.html">Gallery</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav6' href="team.html">Team</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav7' href="faq.html">FAQ(s)</a>
+        </div>
+    </div> 
+    <!-- End of Nav Bar -->
+  </header>
+
 
     <div class="wrapper">
-        <div class="container-fluid" style="text-align: center; margin-top: 30px; margin-bottom: 50px;">
+        <div class="container-fluid" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">
             <h1 class="morganite-heading-1">Events</h1>
 
-            <p class="sora">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, nisi nesciunt cupiditate temporibus, nemo incidunt minus, doloribus minima est ullam placeat consequuntur assumenda! Perspiciatis nulla sequi voluptatibus deleniti quaerat voluptatum!</p>
+            <p class="sora">These are the events that our club conducts every year which covers all the domains which are there to explore in the field of electronics.</p>
         </div>
 
 
         <div class="container-fluid">
 
-            <div class="container" >
+            <div class="container"  >
                 <div class="row" style="justify-content: space-evenly; ">
 
-                  <div class="col-md-3 event-card">
+                  <div class="col-md-3 event-card" >
                     <div class="event-image">
-                        <img src="images/events/electriq.jpg  " alt="">
-                        <div style="margin-left: 0px;">
-                          <a href="" ><i class="bi bi-box-arrow-up-right"  style="color: white; "></i></a>
-                        </div>
+                        <img src="images/events/electriq.jpg" alt="">
                         
                     </div>
+                    <div  class="link-icon">
+                      <a href="https://www.youtube.com/@ElectronicsClubIITGuwahati/videos"  target="_blank"><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                    </div>
 
-                    <h1 class="event-title sora">Event Title </h1>
-                    <p class="description sora">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, repellat blanditiis, molestiae voluptatem ad quo modi dignissimos libero vitae ut esse eum animi officiis amet consequatur officia nobis aliquam praesentium?</p>
-
-                    
+                    <h1 class="event-title sora">ELECTRIQ</h1>
+                    <p class="description sora">ELECTRIQ is a workshop series where we'll be delving into a variety of subjects, such as the beta values of transistors in analogue electronics, the Ones and Zeroes of digital electronics, EDA Tools used in PCB Design, Raspberry Pi Coding, and much more!
+                    </p>
                     
                   </div>
                   
 
                   <div class="col-md-3 event-card">
-                    Column
+                    <div class="event-image">
+                      <img src="images/events/analog (1).jpg" alt="">
+                      
+                  </div>
+                  <div  class="link-icon">
+                    <a href="https://www.youtube.com/watch?v=gbi2AWxltMI"  target="_blank"><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                  </div>
+
+                  <h1 class="event-title sora">Analog Workshop</h1>
+                  <p class="description sora">Analog workshop is a type of hands-on learning experience that focuses on the design, construction, and operation of analog electronic circuits.The session will cover a variety of fascinating subjects, including the contrast between BJT and MOSFET, the operation and uses of OP AMPS, and much more. If you're curious, you should know that this workshop was electrifying—pun intended.</p>
                   </div>
 
                   <div class="col-md-3 event-card">
-                    Column
+                    <div class="event-image">
+                      <img src="images/events/know_your_laptop (1).jpg" alt="">
+                      
+                  </div>
+                  <div  class="link-icon">
+                    <a href="https://www.youtube.com/watch?v=lWPwg7hcmIc" target="_blank" ><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                  </div>
+
+                  <h1 class="event-title sora">Know Your Laptop</h1>
+                  <p class="description sora">The Know Your Laptop workshop is designed to empower individuals to become more proficient and confident in their use of laptops. Whether you're new to laptops or looking to improve your existing skills, this workshop is the perfect opportunity to learn more about the technology you rely on every day.</p>
                   </div>
 
                 </div>
               </div>
 
+              <div class="container"  >
+                <div class="row" style="justify-content: space-evenly; ">
+
+                  <div class="col-md-3 event-card" >
+                    <div class="event-image">
+                        <img src="images/events/digital (1).jpg" alt="">
+                        
+                    </div>
+                    <div  class="link-icon">
+                      <a href="https://www.youtube.com/watch?v=Ww3P1lmOPYo"  target="_blank"><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                    </div>
+
+                    <h1 class="event-title sora">Digital Workshop</h1>
+                    <p class="description sora">This workshop aims to teach the students about the basics of electronics and how to work with electronic components. The workshop participants will learn to identify and understand the different types of electronic components and how they function in a circuit, how to use basic electronic tools such as multimeter and oscilloscope, and how to design, build, and test simple electronic circuits. 
+                    </p>
+                    
+                  </div>
+                  
+
+                  <div class="col-md-3 event-card">
+                    <div class="event-image">
+                      <img src="images/events/rpi (1).jpg" alt="">
+                      
+                  </div>
+                  <div  class="link-icon">
+                    <a href="https://www.youtube.com/watch?v=5ANjnwm6N_Q"  target="_blank"><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                  </div>
+
+                  <h1 class="event-title sora">Raspberry Pi Workshop</h1>
+                  <p class="description sora">Raspberry Pi workshop is a training session that teaches students how to use Raspberry Pi, a small, low-cost computer that can be used for a variety of projects and applications. The workshop typically covers the basics of setting up and configuring the Raspberry Pi, as well as an introduction to programming using different software and hardware.</p>
+                  </div>
+
+                  <div class="col-md-3 event-card">
+                    <div class="event-image">
+                      <img src="images/events/verilog (1).jpg" alt="">
+                      
+                  </div>
+                  <div  class="link-icon">
+                    <a href="https://www.youtube.com/watch?v=lshanzubbVE" target="_blank" ><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                  </div>
+
+                  <h1 class="event-title sora">Verilog Workshop </h1>
+                  <p class="description sora">A Verilog workshop is a training program designed to introduce the students to the basics of the Verilog Hardware Description Language (HDL). Verilog is a widely used language for designing and describing digital circuits, and this workshop would cover the core concepts and syntax of the language. The workshop is suitable for engineers, students, and others interested in learning the basics of digital design and Verilog.</p>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="container"  >
+                <div class="row" style="justify-content: space-evenly; ">
+
+                  <div class="col-md-3 event-card" >
+                    <div class="event-image">
+                        <img src="images/events/atmegaman (1).jpg" alt="">
+                        
+                    </div>
+                    <div  class="link-icon">
+                      <a href="https://www.youtube.com/@ElectronicsClubIITGuwahati/videos"  target="_blank"><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                    </div>
+
+                    <h1 class="event-title sora">AtMegaman Workshop</h1>
+                    <p class="description sora">This workshop aims to provide students with an introduction to the Arduino platform and sensors.The workshop will be interactive and focus on hands-on learning, providing the participants with a solid foundation in the basics of Arduino and sensor usage, and to be able to create their own projects by the end of the workshop.</p>
+                    
+                  </div>
+
+                  <div class="col-md-3 event-card" >
+                    <div class="event-image">
+                        <img src="images/events/pcb (1).jpg" alt="">
+                        
+                    </div>
+                    <div  class="link-icon">
+                      <a href="https://www.youtube.com/watch?v=KS3kToFHZH8"  target="_blank"><i class="bi bi-box-arrow-up-right"  style="color: white;font-size: 18px; "></i></a>
+                    </div>
+
+                    <h1 class="event-title sora">PCB Design Workshop</h1>
+                    <p class="description sora">This workshop conducted by an electronics club typically involves training participants on the principles and techniques of designing printed circuit boards (PCBs) for electronic devices. The workshop covers topics such as layout and routing, component selection and placement, and testing and verification of the PCB. Hands-on exercises and design projects will also be included to give participants practical experience in designing and fabricating PCBs.</p>
+                    
+                  </div>
+                  
+
+                </div>
+              </div>
+
+
+              <footer class="mt-32">
+                <!-- Get In touch -->
+                <div class="get-in-touch flex flex-col items-center lg:grid lg:grid-cols-2">
+                    <div class="morganite-heading-1 heading lg:flex lg:flex-row lg:items-center lg:justify-end mr-5">
+                        GET IN TOUCH
+                    </div> 
+                    <div class="footer-contact-section lg:mx-20 ">
+                        <div class="text-sm text-gray-400 mt-4 lg:mt-0 sora">
+                            For any doubts/queries, feel free to contact us at <span style="font-weight: 380; color: white;"> electronicsclub@iitg.ac.in </span>.
+                        </div>
+                        
+                        <div class="text-sm text-gray-400 mt-8 sora">
+                            Find us on
+                        </div>
+                        <div class="links">
+                            <a href="https://www.facebook.com/electronics.iitg/" target="_blank"><div><img src="images/fb_logo.png"></div></a>
+                            <a href="https://www.instagram.com/electronicsclubiitg/?hl=en" target="_blank"><div><img src="images/insta_logo.png"></div></a>
+                            <a href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw?app=desktop" target="_blank"><div><img src="images/yt_logo.png" target="_blank"></div></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Get in Touch and links-->
+                <!--Extreme Bottom-->
+                <div id="bottom" class="flex flex-col lg:flex-row items-center justify-between">
+                    <div class="mt-4 lg:mt-0 flex flex-row items-center">
+                        <div class="inline-flex"><img src="images/Techboard.png" width="140px"></div>
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:ml-auto text-sm text-gray-400 sora" style="font-size: 14px;">Designed and Developed by Electronics Club IITG</div>
+                </div>
+            </footer>
+
         </div>
+
+
+
+       
     </div>
     
     
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script>
+      let nav= document.getElementById("navigation");
+      let menu = document.getElementById("menu-icon"); 
+      menu.addEventListener('click',()=>{
+          nav.classList.toggle("hidden");
+      });
+    </script>
 </body>
+
 </html>

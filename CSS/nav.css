@@ -4,6 +4,7 @@ header
     align-items: center;
     justify-content: space-around; */
     padding-top: 44px;
+    
 }
 
 .home
@@ -15,7 +16,7 @@ header
 
 .home .EC
 {
-    font-weight: 600;
+    font-weight: 350;
     color: #FFFFFF;
     line-height: 24px;
 }
@@ -65,7 +66,7 @@ header #navigation a
     padding-top: 8px;
     padding-bottom: 8px;
     cursor: pointer;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 header #navigation a:hover
@@ -91,7 +92,7 @@ header #myDropdown1 a:hover
     color: white;
 }
 
-header #myDropdown2 a
+header  #myDropdown2 a
 {
     opacity: 1;
     background-color: #e5e7eb;
@@ -99,7 +100,7 @@ header #myDropdown2 a
     color: #374151;
 }
 
-header #myDropdown2 a:hover
+header  #myDropdown2 a:hover
 {
     --tw-bg-opacity: 1;
     background-color: #9ca3af;
@@ -117,10 +118,12 @@ header #myDropdown2 a:hover
     margin-top: 9px;
 }
 
-#nav1,#nav2,#nav3,#nav5,#nav6
+#nav1,#nav2,#nav3,#nav4,#nav5,#nav6,#nav7
 {
     font-size: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
     line-height: 125%;
+    color: white;
+    text-decoration: none;
 }

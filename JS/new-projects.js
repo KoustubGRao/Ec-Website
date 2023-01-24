@@ -1,7 +1,8 @@
-var carouselA = document.getElementById('carouselExampleControls');
-var carouselB = document.getElementById('carouselExampleControls2');
+var cardbody = document.getElementsByClassName('card-body');
+var cardheight = cardbody[0].style.height;
+console.log('cardheight');
+var git_link = document.getElementsByClassName('git-link');
 
-carouselA.addEventListener('slide.bs.carousel', function(e) {
-  var bsCarouselB = bootstrap.Carousel.getInstance(carouselB);
-  bsCarouselB.to(e.to);
-});
+for(i = 0; i < git_link.length; i++){
+    git_link[i].style.top = cardheight;
+}

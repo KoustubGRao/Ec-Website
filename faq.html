@@ -9,92 +9,130 @@
     <link rel="icon" type="image/x-icon" href="ElectronicsClubLogo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="CSS/faq.css">
-    
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <script src="JS/faq.js" defer></script>
     <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
 <body class="home-body">
-   
+  <header class="header lg:flex" >
+    <div class="flex items-center" >
+        <!--EC LOGO   -->
+        <div>
+            <a href="index.html" class="home px-5 pr-5 sm:px-20 sm:pr-20" style="text-decoration: none;">
+                <div><img src="images/ec_logo.png" class="inline-flex" id="logo"></div>
+                <div id="line"></div>
+                <div id="display sora">
+                    <div class="EC">Electronics Club</div>
+                    <div class="IIT">IIT Guwahati</div>
+                </div>
+            </a>
+        </div>
+        <!-- End of Logo -->
+
+        <!-- Nav Bar -->
+        <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler mr-4 " data-target="#navigation">
+            <i class="material-icons" id="menu-icon">menu</i>
+        </button>
+    </div>
+    <div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto lg:pr-20" id="navigation">
+        <div class="block pt-3 lg:pt-0 sora lg:inline-flex lg:flex-row lg:ml-auto flex flex-col items-center text-sm">
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav1' href="index.html">Home</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav2' href="know_about_it.html">Know About It</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav3' href="events.html">Events</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav4' href="projects.html">Projects</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav5' href="gallery.html">Gallery</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav6' href="team.html">Team</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav7' href="faq.html">FAQ(s)</a>
+        </div>
+    </div> 
+    <!-- End of Nav Bar -->
+  </header>
+
     <div id="FAQ">
-        <div class=" mt-15 mb-25" style="padding-left:8vw;padding-right: 8vw;margin-top:15px;margin-bottom:45px">
-            <div class="flex flex-col items-center justify-center mt-15 mb-25">
-                <h1 class="morganite-heading-1" style="text-align : center">FAQ</h1>
-    
+        <div class=" mt-15 mb-25" style="padding-left:8vw;padding-right: 8vw;margin-top:50px;">
+            <div class="flex flex-col items-center justify-center mt-15 mb-25" >
+                <h1 class="morganite-heading-1 faq" style="text-align : center; line-height: none ;">FAQ</h1>
             </div>
-            <section>
+            <section style="margin-top: 30px;">
                 <div class="accordion " >
                     <div class="accordion-item ">
                       <div class="accordion-item-header">
                         
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        How can I get into the Electronics Club?
                        
                       </div>
                       <div class="accordion-item-body">
-                        <div class="accordion-item-body-content">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <div class="accordion-item-body-content sora">
+                          We welcome all juniors to join our club at any time. We believe that everyone should have the opportunity to learn and be a part of our projects. We encourage juniors to bring their unique ideas and perspectives to the table and actively participate in our activities.
+                          <br><br> 
+                          We are excited to have you on board and look forward to working with you. So, if you are a junior, interested in our club and what we do, don't hesitate to reach out and join us.
+                          
 
                         </div>
                       </div>
                     </div>
                     <div class="accordion-item">
                         <div class="accordion-item-header">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          Do we need any prerequisites to work in the projects?
+
                         </div>
                         <div class="accordion-item-body">
-                          <div class="accordion-item-body-content">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          <div class="accordion-item-body-content sora">
+                            We want to make it clear that there are no prerequisites to work on our club projects. All we require is enthusiasm and a willingness to learn. Regardless of your prior experience or knowledge, we welcome anyone who is interested in participating in our projects and contributing to our club. Our goal is to provide a supportive and inclusive environment where everyone has the opportunity to learn and grow.
+                              <br><br>
+                            So, if you are excited about our club and the projects we work on, don't let a lack of experience hold you back from joining us. We encourage you to bring your curiosity and willingness to learn to the table and we will provide the resources and guidance you need to succeed.	
+                           
   
                           </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <div class="accordion-item-header">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          When will the projects be floated and how can we join them?
+
                         </div>
                         <div class="accordion-item-body">
-                          <div class="accordion-item-body-content">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          <div class="accordion-item-body-content sora">
+                            At the start of every semester, the club will send out a list of projects via email to all members. This list will include a variety of projects that are currently being worked on, as well as new projects that the club is planning to take on. 
+                            <br><br>
+                            Students are welcome to apply for any of the projects on the list by filling out an application form. We encourage juniors to consider the projects that align with their interests and skills and apply as soon as possible to secure a spot on the team.
+
   
                           </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <div class="accordion-item-header">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          Will i have a mentor to guide me?
                         </div>
                         <div class="accordion-item-body">
-                          <div class="accordion-item-body-content">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          <div class="accordion-item-body-content sora">
+                            We understand that starting a new project or learning a new skill can be intimidating, which is why we ensure that everyone will have a mentor to guide them. Our mentors are experienced members of the club who will provide you with the support and guidance you need to succeed. They will be available to answer any questions, provide feedback, and offer suggestions on how to improve your work. 
+                              <br><br>
+                            With the help of your mentor, you will have the opportunity to learn from someone who has been in your shoes and can provide valuable insights and advice. We believe that having a mentor is an essential part of the learning process and we are committed to providing this support to all members of our club.
+                            
+                            
   
                           </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <div class="accordion-item-header">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                          What if i miss the deadline to apply for projects?
                         </div>
                         <div class="accordion-item-body">
-                          <div class="accordion-item-body-content">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          <div class="accordion-item-body-content sora">
+                            If for any reason a student misses the deadline to apply for a project, they need not worry. Opportunities to join a project can arise throughout the semester and we encourage students to reach out to one of the club core team members or heads to inquire about joining a project. We understand that circumstances can change and we want to ensure that everyone has the opportunity to be a part of our projects. 
+                            <br><br>
+                            By contacting a core team member or head, students can express their interest in a project, and if a spot becomes available, they will be considered for it. So, even if you missed the deadline to apply, don't hesitate to reach out and let us know that you are still interested in joining a project, we are here to help.
+                            
   
                           </div>
                         </div>
@@ -103,6 +141,47 @@
             </section>
         </div>
     </div>
+
+    <footer class="mt-32">
+      <!-- Get In touch -->
+      <div class="get-in-touch flex flex-col items-center lg:grid lg:grid-cols-2">
+          <div class="morganite-heading-1 lg:flex lg:flex-row lg:items-center lg:justify-end mr-5">
+              GET IN TOUCH
+          </div> 
+          <div class="footer-contact-section lg:mx-20 ">
+              <div class="text-sm text-gray-400 mt-4 lg:mt-0 sora">
+                  For any doubts/queries, feel free to contact us at <span style="font-weight: 380; color: white;"> electronicsclub@iitg.ac.in </span>.
+              </div>
+              
+              <div class="text-sm text-gray-400 mt-8 sora">
+                  Find us on
+              </div>
+              <div class="links">
+                  <a href="https://www.facebook.com/electronics.iitg/" target="_blank"><div><img src="images/fb_logo.png"></div></a>
+                  <a href="https://www.instagram.com/electronicsclubiitg/?hl=en" target="_blank"><div><img src="images/insta_logo.png"></div></a>
+                  <a href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw?app=desktop" target="_blank"><div><img src="images/yt_logo.png" target="_blank"></div></a>
+              </div>
+          </div>
+      </div>
+      <!-- End of Get in Touch and links-->
+      <!--Extreme Bottom-->
+      <div id="bottom" class="flex flex-col lg:flex-row items-center justify-between">
+          <div class="mt-4 lg:mt-0 flex flex-row items-center">
+              <div class="inline-flex"><img src="images/Techboard.png" width="140px"></div>
+          </div>
+          <div class="mt-4 lg:mt-0 lg:ml-auto text-sm text-gray-400 sora" style="font-size: 14px;">Designed and Developed by Electronics Club IITG</div>
+      </div>
+  </footer>
+
+  <!--------------------------------------------------  --------------------------------------------------------->
+  <script>
+    let nav= document.getElementById("navigation");
+    let menu = document.getElementById("menu-icon"); 
+    menu.addEventListener('click',()=>{
+        nav.classList.toggle("hidden");
+    });
+  </script>
+
 </body>
             
            

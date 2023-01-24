@@ -10,19 +10,61 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="CSS/team.css">
+    
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
  
 
 </head>
 
 <body class="home-body">
 
+  <header class="header lg:flex" >
+    <div class="flex items-center" >
+        <!--EC LOGO   -->
+        <div>
+            <a href="index.html" class="home px-5 pr-5 sm:px-20 sm:pr-20" style="text-decoration: none;">
+                <div><img src="images/ec_logo.png" class="inline-flex" id="logo"></div>
+                <div id="line"></div>
+                <div id="display sora">
+                    <div class="EC">Electronics Club</div>
+                    <div class="IIT">IIT Guwahati</div>
+                </div>
+            </a>
+        </div>
+        <!-- End of Logo -->
+
+        <!-- Nav Bar -->
+        <button class="inline-flex hover:bg-gray-900 lg:hidden ml-auto nav-toggler mr-4 " data-target="#navigation">
+            <i class="material-icons" id="menu-icon">menu</i>
+        </button>
+    </div>
+    <div class="hidden top-nav w-full lg:inline-flex lg:flex-grow lg:w-auto lg:pr-20" id="navigation">
+        <div class="block pt-3 lg:pt-0 sora lg:inline-flex lg:flex-row lg:ml-auto flex flex-col items-center text-sm">
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav1' href="index.html">Home</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav2' href="know_about_it.html">Know About It</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav3' href="events.html">Events</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav4' href="projects.html">Projects</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav5' href="gallery.html">Gallery</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav6' href="team.html">Team</a>
+            <a class="lg:inline-flex lg:w-auto px-2.5 " id='nav7' href="faq.html">FAQ(s)</a>
+        </div>
+    </div> 
+    <!-- End of Nav Bar -->
+  </header>
+
     <div class="wrapper">
         <!----------------------- Current Team --------------------->
-        <div class="container-fluid team" style ="text-align: center; margin-top: 30px;">
+        <div class="container-fluid team" style ="text-align: center; margin-top: 50px;">
 
-                <h1 class="morganite-heading-1" style="margin-top: 10px;">Current Team</h1>
+                <h1 class="morganite-heading-1" style="margin-top: 10px;">Team</h1>
 
-                <p class="sora" style="margin-top: 10px; "> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit dolore quam dicta tenetur praesentium delectus et autem rem at velit, dolores dolorum maiores corrupti nihil, eos, minima optio eaque ipsa!</p>
+                <p class="sora" style="margin-top: 10px; ">Hello There! We are the heads of Electronics Club.</p>
         </div>
 
         <!------------------------ Team starts from here ------------------------>
@@ -31,7 +73,7 @@
 
             <!---------------------- Repetition divs ------------------------------>
             
-                <div class="row  "  style="justify-content: space-evenly; margin: 0 20px;">
+                <div class="row  "  style="justify-content: space-evenly; margin: 0px 20px;margin-top: 30px;">
                   <div class=" team-card col-lg-3 px-3">
 
                     <div class=" row profile-photo">
@@ -56,7 +98,7 @@
 
                   <div class="team-card col-lg-3 px-3">
                     <div class=" row profile-photo">
-                      <img src="images/profilepics/dhruv.jpeg" alt="">
+                      <img src="images/profilepics/dhruvk.jpg" alt="">
                     </div>
 
                     <h1 class="sora">Dhruv Kumar</h1>
@@ -123,7 +165,7 @@
 
               <div class="team-card col-lg-3 px-3">
                 <div class=" row profile-photo">
-                  <img src="images/profile.png" alt="">
+                  <img src="images/profilepics/yatharth.jpeg" alt="">
                 </div>
 
                 <h1 class="sora">Yatharth Patil</h1>
@@ -189,7 +231,7 @@
 
           <div class="team-card col-lg-3 px-3">
             <div class=" row profile-photo">
-              <img src="images/profilepics/avhinash.jpeg" alt="">
+              <img src="images/profilepics/chitti.jpg" alt="">
             </div>
 
             <h1 class="sora">Avinash Reddy</h1>
@@ -230,6 +272,36 @@
         </div>
 
      <!----------------------------------------------------------------------->
+  <footer class="mt-32">
+    <!-- Get In touch -->
+    <div class="get-in-touch flex flex-col items-center lg:grid lg:grid-cols-2">
+        <div class="morganite-heading-1 lg:flex lg:flex-row lg:items-center lg:justify-end mr-5">
+            GET IN TOUCH
+        </div> 
+        <div class="footer-contact-section lg:mx-20 ">
+            <div class="text-sm text-gray-400 mt-4 lg:mt-0 sora">
+                For any doubts/queries, feel free to contact us at <span style="font-weight: 380; color: white;"> electronicsclub@iitg.ac.in </span>.
+            </div>
+            
+            <div class="text-sm text-gray-400 mt-8 sora">
+                Find us on
+            </div>
+            <div class="links">
+                <a href="https://www.facebook.com/electronics.iitg/" target="_blank"><div><img src="images/fb_logo.png"></div></a>
+                <a href="https://www.instagram.com/electronicsclubiitg/?hl=en" target="_blank"><div><img src="images/insta_logo.png"></div></a>
+                <a href="https://www.youtube.com/channel/UClPWjFXGdtjKYjZvulnUViw?app=desktop" target="_blank"><div><img src="images/yt_logo.png" target="_blank"></div></a>
+            </div>
+        </div>
+    </div>
+    <!-- End of Get in Touch and links-->
+    <!--Extreme Bottom-->
+    <div id="bottom" class="flex flex-col lg:flex-row items-center justify-between">
+        <div class="mt-4 lg:mt-0 flex flex-row items-center">
+            <div class="inline-flex"><img src="images/Techboard.png" width="140px"></div>
+        </div>
+        <div class="mt-4 lg:mt-0 lg:ml-auto text-sm text-gray-400 sora" style="font-size: 14px;">Designed and Developed by Electronics Club IITG</div>
+    </div>
+  </footer>
 
              
 
@@ -239,9 +311,15 @@
 
     </div>
     
-
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-
+    <script>
+      let nav= document.getElementById("navigation");
+      let menu = document.getElementById("menu-icon"); 
+      menu.addEventListener('click',()=>{
+          nav.classList.toggle("hidden");
+      });
+    </script>
 </body>
